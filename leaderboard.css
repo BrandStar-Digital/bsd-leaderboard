@@ -1127,6 +1127,7 @@ footer {
   margin: 0 auto;
   width: 100%;
   padding: 0 var(--gutter);
+     text-align: center;
 }
 /* ===== Animations ===== */
 .fade-in {
