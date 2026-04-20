@@ -1120,7 +1120,14 @@ footer {
   color: var(--bs-white);
   font-weight: 700;
 }
-
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--gutter);
+}
 /* ===== Animations ===== */
 .fade-in {
   opacity: 0;
